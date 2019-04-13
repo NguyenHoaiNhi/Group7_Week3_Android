@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+    >
+
+        <ImageView android:id="@+id/img_view"
+                   android:layout_width="105dp"
+                   android:layout_height="105dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="240dp"
+                   android:background="@drawable/facebook"
+        />
+
+        <Button
+                android:id="@+id/btn_facebook"
+                android:layout_below="@+id/img_view"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:background="@drawable/facebook"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="20dp"
+        />
+
+        <Button
+                android:id="@+id/btn_chrome"
+                android:layout_below="@+id/img_view"
+                android:layout_toRightOf="@+id/btn_facebook"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:background="@drawable/chrome"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+
+        />
+
+        <Button
+                android:id="@+id/btn_vivaldi"
+                android:layout_below="@+id/img_view"
+                android:layout_toRightOf="@+id/btn_chrome"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:background="@drawable/vivaldi"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+        />
+
+        <Button
+                android:id="@+id/btn_firefox"
+                android:layout_below="@+id/btn_facebook"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:background="@drawable/firefox"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+
+        />
+
+        <Button
+                android:id="@+id/btn_ubuntu"
+                android:layout_below="@+id/btn_chrome"
+                android:layout_toRightOf="@+id/btn_firefox"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:background="@drawable/ubuntu"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+
+        />
+
+        <Button
+                android:id="@+id/btn_android_studio"
+                android:layout_below="@+id/btn_vivaldi"
+                android:layout_toRightOf="@+id/btn_ubuntu"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:background="@drawable/android_studio"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+
+        />
+
+        <Button
+                android:id="@+id/btn_save"
+                android:layout_width="360dp"
+                android:layout_height="75dp"
+                android:layout_below="@id/btn_android_studio"
+                android:text="SAVE"
+                android:textColor="#222222"
+                android:textSize="20dp"
+                android:layout_marginTop="25dp"
+        />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
